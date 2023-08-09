@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <button id="m">click ME</button>
+    <button id="r">Red</button>
+    <button id="g">Green</button>
+    <button id="d">Date</button>
+
+    <h1 id = "h"></h1>
+    <h1 id="dt"></h1>
+    <script>
+
+        // console.log('Welcome To JavaSCript') /*to print */
+        // console.log('Yogesh Jangid')
+        // // alert('HEllo world') /*isme yeh alert show karega*/
+        // document.write('Heyy Document me aagyaa')
+        document.getElementById("m").onclick = function(){
+            // console.log('My name is Yogesh Jangid') To print in console.
+
+           document.getElementById("h").innerHTML = "My name is yogesh Jangid"
+        }
+
+
+        document.getElementById("r").onclick = function(){
+            document.getElementById("h").style.color = "red"
+        }
+        document.getElementById("g").onclick = function(){
+            document.getElementById("h").style.color = "Green"
+        }
+        document.getElementById("d").onclick = function(){
+            document.getElementById("dt").innerHTML = new Date()
+        }
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
