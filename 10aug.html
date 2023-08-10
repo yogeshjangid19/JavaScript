@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Enter 1st number : <input type="text" id="inp1" /><br>
+        ENter 2nd Number: <input type="text" id="inp2" /><br>
+        <select name="" id="select">
+            <option value="none">None</option>
+            <option value="add">Add</option>
+            <option value="sub">Sub</option>
+            <option value="mul">Sub</option>
+            <option value="divide">Divide</option>
+
+        </select>
+        
+    <script>
+        document.getElementById("select").onclick = function(){
+         let num1 = Number(document.getElementById("inp1").value);
+         let num2 = Number(document.getElementById("inp2").value);
+
+         let oper = document.getElementById("select").value
+
+         if(oper == "add"){
+            console.log(num1 + num2) 
+         }
+         if(oper == "sub"){
+            console.log(num1 - num2) 
+         }
+         if(oper == "mul"){
+            console.log(num1 * num2) 
+         }
+         if(oper == "divide"){
+            console.log(num1 / num2) 
+         }
+        }
+         
+
+        
+    </script>
+
+
+
+
+
+
+    
+</body>
+</html>
