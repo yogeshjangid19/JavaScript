@@ -7,9 +7,11 @@
 </head>
 <body>
 
+    
+
     <script>
 
-        let a = [10,20,3,5,1.5,0.25,"yogesh","rakesh"]         /*to print an array */
+        // let a = [10,20,3,5,1.5,0.25,"yogesh","rakesh"]         /*to print an array */
         // for(let i=0;i<a.length;i++){
         //     console.log(a[i])
         // }
@@ -22,7 +24,115 @@
         //     console.log(item)
         // })
 
-    </script>
+
+
+        // let a = [10,20,30,40,50,60,70,80]
+        // console.log(a)
+        // console.log(a.indexOf(50))
+
+       /* a.push("aman") 
+        console.log(a) */
+        // a.pop()     push last se insert karta hai value
+        // a.push(80)
+
+        // a.shift()  
+        // a.unshift()
+        // a.pop()
+        // a.push(10)
+
+        // console.log(a)
+
+// ------------slice ---------
+
+        // let a = [10,20,30,40,50,60,70,80]
+        // console.log(a.slice(2,5))
+
+// ---------------splice-----------
+
+//  let a = [10,20,30,40,50,60,70,80]
+// a.splice(2,1,"aman")
+// console.log(a)
+
+// let a = [10,20,30,40,50,60,70,80]
+// console.log(a.slice(4,8))
+
+
+// ------MAP----------
+
+/* let a = [10,20,30,40,50,60,70,80];
+let b= a.map(function(item){
+    return item*2;
+})
+console.log(b)  */
+// let a = [10,20,30,40,50,60,70,80];
+// let b= a.map(function(item){
+//     if(item>=50){
+//     return `${item} passs`          /*agar value or pass ya fail sath me chiye toh backticks use karenge */
+//     }
+//     else{
+//         return `${item} fail`
+//     }
+// })
+// console.log(b)
+
+//    ------------filter function--------
+// let a = [10,20,30,40,50,60,70,80];
+// let b = a.filter(function(item){
+//     return item>50
+// })
+
+// console.log(b)
+
+// --------reduce------------
+
+/* let a = [10,20,30,40,50,60,70,80];
+let b = a.reduce(function(a,b){
+    return a+b
+})
+console.log(b) */
+
+
+// let a = [[10,20],[30,40,[80,70,[5,6,[7,6,5,[0,"yogesh"],8,5],5,6]6,4],6,'a']];    /*find mohit */
+// console.log(a[1][2][2])
+
+// String se aray me convet karn ahai to split use karenge 
+
+/* let a = "yogesh,yuvraj,rohit , mohit,rakesh"
+console.log(a.split(",")) */
+
+
+
+/*let a = ['yogesh','yuvraj','rohit' , 'mohit','rakesh']        TO convert array to string use join
+console.log(a.join(",")) */
+
+
+
+
+
+
+    // -------------destructing of array   -------------------
+
+    var [a,b,c]=[10,20,30]
+    console.log(a)
+    console.log(b)
+    console.log(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
     
 </body>
 </html>
